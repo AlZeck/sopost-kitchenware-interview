@@ -3,21 +3,21 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 const orderSlice = createSlice({
   name: "order",
   initialState: {
-    name: "John Doe",
-    email: "john@example.com",
+    name: "",
+    email: "",
     items: {
-      forks: true,
-      knives: true,
+      forks: false,
+      knives: false,
       spoons: false,
     },
     address: {
-      line_1: "SoPost Ltd",
-      line_2: "The Core, Bath Lane",
-      town: "Newcastle Upon Type",
-      district: "Tyne & Wear",
-      territory: "GBR",
-      country: "United Kingdom",
-      postcode: "NE4 5TF",
+      line_1: "",
+      line_2: "",
+      town: "",
+      district: "",
+      territory: "",
+      country: "",
+      postcode: "",
     },
   },
   reducers: {
